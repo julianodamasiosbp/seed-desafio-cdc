@@ -1,0 +1,33 @@
+# Build artifacts
+target/
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# Log files
+*.log
+logs/
+
+# Maven/Gradle specific
+.mvn/
+mvnw
+mvnw.cmd
+.gradle/
+build/ # For Gradle projects
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Sensitive information (example)
+application-local.properties
+application-dev.yml
